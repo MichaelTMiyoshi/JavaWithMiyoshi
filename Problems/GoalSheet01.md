@@ -12,7 +12,7 @@ Do BJP Ch 1 exercise 7
 
 **Problem GS01-03 - Shapes using println**
 
-Do BJP Ch 1 exercise 9 (make sure to use a static method.
+Do BJP Ch 1 exercise 9 (make sure to use a static method).
 
 **Problem GS01-04 - Kid Songs**
 
