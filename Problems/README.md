@@ -1,0 +1,4 @@
+# Problems
+These problem statements in this folder are the ones I use in my class.  I group them into what I call goal sheets (which are how they are named in the files here).  Each goal sheet is slated to take two weeks.
+
+Many/most of the problems are taken from the textbook we use in class.  I use the book *Building Java Programs* by Reges and Stepp.  I use the description BJP to note that the problem is from our textbook.  The chapter and exercise or project are given to fully describe the problem.  The problems in the goal sheets are just short descriptions, or the whole problem statement if the problem is short.  I believe all our textbooks in my classroom are early editions of the book.  Which is why I suggest that those who want to use PracticeIt as a companion to the course use the 3rd edition problems.
