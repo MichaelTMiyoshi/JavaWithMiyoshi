@@ -2,6 +2,8 @@
 
 **Classes**
 
+Note: BJP = Building Java Programs (by Reges and Stepp)
+
 **Problem GS06-01 - Ticket Class**
 
 (BJP Ch 9 Ex 4) Implement ticket class and other classes necessary for exercise.
