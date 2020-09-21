@@ -18,7 +18,7 @@ Goal Sheet Number | Topic(s) Covered
 [08](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blog/master/Problems/GoalSheet08.md) | Lists, Maps, and Data structures
 [09](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blog/master/Problems/GoalSheet09.md) | Lists, Sets, Maps
 -- | -- Semester --
-[10](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/GoalSheet10.md) | Recursion
+[10](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/GoalSheet10.md) | Recursion and Sorting
 [11](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/GoalSheet11.md) | File I/O
 [12](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blog/master/Problems/GoalSheet12.md) | Classes
 [13](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blog/master/Problems/GoalSheet13.md) | Catch up
