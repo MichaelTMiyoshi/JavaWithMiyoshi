@@ -2,6 +2,8 @@
 
 **Output and Static Methods**
 
+Note: BJP = Building Java Programs (by Reges and Stepp)
+
 **Problem GS02-01 - Output Squares**
 
 Do BJP Ch 2 Exercise 2.  Write a program to output the squares of the numbers 1 to a given number.  (Challenge yourself to do it without multiplying or using powers.)
