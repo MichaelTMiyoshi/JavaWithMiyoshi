@@ -16,4 +16,4 @@ Write a program that plays a variation of the game Mastermind with a user.  The 
 
 **Problem GS05-04 - Quadratic**
 
-AP multiple choice practice
+Sign up on the AP site if you have not done so yet.  Start/continue multiple choice packet of practice problems.
