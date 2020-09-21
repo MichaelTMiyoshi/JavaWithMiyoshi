@@ -2,6 +2,8 @@
 
 **Output and Static Methods**
 
+Note: BJP = Building Java Programs (by Reges and Stepp)
+
 **Problem GS01-01 - Hello World**
 
 Create a hello world program with at least five lines of output.
