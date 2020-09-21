@@ -2,6 +2,8 @@
 
 **Methods, Looping, Branching**
 
+Note: BJP = Building Java Programs (by Reges and Stepp)
+
 **Problem GS03-01 - repl**
 
 Write a method called repl that accepts a String and a number of repetitions as parameters and returns the string concatenated that many times. For example, the call repl(“hello”, 3) should return “hellohellohello”. If the number of repetitions is zero or less, the method should return an empty string. (BJP Ch 4 Ex 2)
