@@ -8,7 +8,7 @@ Below are the goal sheets with their associated descriptions (including the catc
 
 Goal Sheet Number | Topic(s) Covered
 ----------------- | ----------------
-[01](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/edit/master/Problems/GoalSheet01.md) | Output
+[01](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/GoalSheet01.md) | Output
 [02](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/edit/master/Problems/GoalSheet02.md) | Output, Looping, Math
 [03](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/edit/master/Problems/GoalSheet03.md) | Methods, Looping, Branching
 [04](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/edit/master/Problems/GoalSheet04.md) | Methods, substring, Input
