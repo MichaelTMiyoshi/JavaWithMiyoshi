@@ -24,4 +24,4 @@ Write a program that counts the number of words, lines, and total characters (no
 
 **Problem GS03-06 - AP Practice**
 
-AP multiple choice practice
+Sign up on the AP site if you have not done so yet.  Start/continue multiple choice packet of practice problems.
