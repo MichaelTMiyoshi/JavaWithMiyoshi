@@ -2,6 +2,8 @@
 
 **methods, substrings, input**
 
+Note: BJP = Building Java Programs (by Reges and Stepp)
+
 **Problem GS04-01 - padString**
 
 Write a method called padString that accepts two parameters: a String and an integer representing a length.  The method should pad the parameter String with spaces until its length is the given length. (BJP Ch 3 Ex 11)
