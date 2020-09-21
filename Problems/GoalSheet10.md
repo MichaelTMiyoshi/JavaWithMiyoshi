@@ -1,6 +1,6 @@
 # Goal Sheet 10
 
-**Output and Static Methods**
+**Recursion and Sorting**
 
 Note: BJP = Building Java Programs (by Reges and Stepp)
 
