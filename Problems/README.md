@@ -14,8 +14,8 @@ Goal Sheet Number | Topic(s) Covered
 [04](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/edit/master/Problems/GoalSheet04.md) | Methods, substring, Input
 [05](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/edit/master/Problems/GoalSheet05.md) | Arrays
 [06](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/edit/master/Problems/GoalSheet06.md) | Classes
-[07](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/GoalSheet07.md) | Lists and Data structures
-[08](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/edit/master/Problems/GoalSheet08.md) | Catch up
+[07](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/GoalSheet07.md) | Lists and other data structures
+[08](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/edit/master/Problems/GoalSheet08.md) | Lists and other data structures
 [09](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/edit/master/Problems/GoalSheet09.md) | Catch up
 -- | -- Semester --
 [10](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/edit/master/Problems/GoalSheet10.md) | Vectors
