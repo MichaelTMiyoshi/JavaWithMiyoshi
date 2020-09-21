@@ -2,6 +2,8 @@
 
 **Arrays**
 
+Note: BJP = Building Java Programs (by Reges and Stepp)
+
 **Problem GS05-01 - Output Squares**
 
 Use a two-dimensional array to write a game of Tic-Tac-Toe that represents the board.  (BJP Ch 7 Proj 5)
