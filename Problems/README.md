@@ -21,8 +21,8 @@ Goal Sheet Number | Topic(s) Covered
 [10](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/GoalSheet10.md) | Recursion and Sorting
 [11](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/GoalSheet11.md) | Recursion
 [12](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/GoalSheet12.md) | Comparators, Searching, and Stuff
-[13](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/GoalSheet13.md) | Catch up
-[14](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/GoalSheet14.md) | Game Engine Tutorial (first half)
+[13](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/GoalSheet13.md) | Miscellaneous
+[14](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/GoalSheet14.md) | Maps, Strings, etc.
 [15](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/GoalSheet15.md) | Advanced Goal Sheet
 [16](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/GoalSheet15.md) | Advanced Goal Sheet
 [17](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/GoalSheet15.md) | Advanced Goal Sheet
