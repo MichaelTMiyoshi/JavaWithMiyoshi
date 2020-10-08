@@ -8,7 +8,7 @@ Note: BJP = Building Java Programs (by Reges and Stepp)
 
 Use a two-dimensional array to write a game of Tic-Tac-Toe that represents the board.  (BJP Ch 7 Proj 5)
 
-**Problem GS05-02 - Fibonacci series**
+**Problem GS05-02 - Hangman**
 
 Write a game of Hangman using arrays.  Allow the user to guess letters and represent which letters have been guessed in an array.  (BJP Ch 7 Proj 2)
 
