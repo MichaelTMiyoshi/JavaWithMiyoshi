@@ -25,6 +25,16 @@ Secret number: 6684
 Guess | Correct Digit, Correct Location | Correct Digit, Wrong Location
 ----- | ------------------------------- | -----------------------------
 0000 | 0 | 0
+6666 | 2 | 0
+0123 | 0 | 0
+4567 | 0 | 2
+4589 | 1 | 1
+6700 | 1 | 0
+0798 | 0 | 1
+6484 | 3 | 0
+6480 | 2 | 1
+6884 | 3 | 0
+6684 | 4 | 0
 
 **Problem GS05-04 - Quadratic**
 
