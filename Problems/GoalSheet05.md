@@ -16,6 +16,16 @@ Write a game of Hangman using arrays.  Allow the user to guess letters and repre
 
 Write a program that plays a variation of the game Mastermind with a user.  The program should generate a four digit number.  User allowed to guess until she gets the number correct.  Clues are given to the user indicating how many digits are correct and in the correct place.  (BJP Ch 7 Proj 3)
 
+You should output two things after the user guesses.  The number of digits that are correct AND in the correct location.  The number of digits that are correct BUT not in the correct location.  These are mutually exclusive.  A digit cannot be both in the correct location and not in the correct location.
+
+Below is a test case to test your code.  Make sure that your "Secret" is the give number and then use the guesses to check your outputs to see that they match up with the test.
+
+Secret number: 6684
+
+Guess | Correct Digit, Correct Location | Correct Digit, Wrong Location
+----- | ------------------------------- | -----------------------------
+0000 | 0 | 0
+
 **Problem GS05-04 - Quadratic**
 
 Sign up on the AP site if you have not done so yet.  Start/continue multiple choice packet of practice problems.
