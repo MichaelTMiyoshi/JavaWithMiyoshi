@@ -51,6 +51,31 @@ Guess | Correct Digit, Correct Location | Correct Digit, Wrong Location
 8866 | 0 | 3
 8466 | 0 | 4
 
+The file [mastermind_4x6.txt](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/mastermind_4x6.txt) shows all the correct feedback for all the secrets and guesses for a 4 pin, 6 color Mastermind board.  It is useful for those who want to dig deeper into Mastermind or who might even want to write code to play Mastermind.  Writing code to play Mastermind will surely put your mind to the test.  And it will also be able to test your own implementation of the game.  Plus you can test different algorithms to play the game.  Are you up for the challenge?
+
+Table courtesy of @MikeMag.  It is a comma separated value (CSV) text file.  A few lines of the file are shown in the table below.  Thanks Mike.
+
+Secret | Guess | Correct Digit and Location | Correct Digit Wrong Location
+------ | ----- | -------------------------- | ----------------------------
+1111 | 1111 | 4 | 0
+1111 | 1112 | 3 | 0
+1111 | 1113 | 3 | 0
+1111 | 1114 | 3 | 0
+1111 | 1115 | 3 | 0
+1111 | 1116 | 3 | 0
+1111 | 1121 | 3 | 0
+1111 | 1122 | 2 | 0
+1111 | 1123 | 2 | 0
+1111 | 1124 | 2 | 0
+1111 | 1125 | 2 | 0
+1111 | 1126 | 2 | 0
+1111 | 1131 | 3 | 0
+1111 | 1132 | 2 | 0
+1111 | 1133 | 2 | 0
+1111 | 1134 | 2 | 0
+1111 | 1135 | 2 | 0
+1111 | 1136 | 2 | 0
+
 **Problem GS05-04 - Quadratic**
 
 Sign up on the AP site if you have not done so yet.  Start/continue multiple choice packet of practice problems.
