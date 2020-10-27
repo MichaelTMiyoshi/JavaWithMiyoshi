@@ -76,6 +76,6 @@ Secret | Guess | Correct Digit and Location | Correct Digit Wrong Location
 1111 | 1135 | 2 | 0
 1111 | 1136 | 2 | 0
 
-**Problem GS05-04 - Quadratic**
+**Problem GS05-04 - AP Practice**
 
 Sign up on the AP site if you have not done so yet.  Start/continue multiple choice packet of practice problems.
