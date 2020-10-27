@@ -22,10 +22,17 @@ Below is a test case to test your code.  Make sure that your "Secret" is the giv
 
 Secret number: 6684
 
+The guesses below are silly guesses, but they are probably the ones that you should make sure you test first.  If you cannot handle these two cases, you will have a difficult time handling the rest.  The concept is that you need to make sure that a found digit is not checked again.
+
 Guess | Correct Digit, Correct Location | Correct Digit, Wrong Location
 ----- | ------------------------------- | -----------------------------
 0000 | 0 | 0
 6666 | 2 | 0
+
+The guesses below are in a possible sequence that I would play a game.  It uses the information from the previous guesses to come up with the next guess.
+
+Guess | Correct Digit, Correct Location | Correct Digit, Wrong Location
+----- | ------------------------------- | -----------------------------
 0123 | 0 | 0
 4567 | 0 | 2
 4589 | 1 | 1
@@ -35,6 +42,14 @@ Guess | Correct Digit, Correct Location | Correct Digit, Wrong Location
 6480 | 2 | 1
 6884 | 3 | 0
 6684 | 4 | 0
+
+The guesses below are additional guesses that will help you create your algorithm correctly.  There may be other guesses that pass the tests above but still need to be checked to help validate your algorithm.  These will be added as they are found.
+
+Guess | Correct Digit, Correct Location | Correct Digit, Wrong Location
+----- | ------------------------------- | -----------------------------
+8468 | 0 | 3
+8866 | 0 | 3
+8466 | 0 | 4
 
 **Problem GS05-04 - Quadratic**
 
