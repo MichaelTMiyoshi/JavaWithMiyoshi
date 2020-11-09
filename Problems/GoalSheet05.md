@@ -26,15 +26,15 @@ Secret number: 6684
 
 The guesses below are silly guesses, but they are probably the ones that you should make sure you test first.  If you cannot handle these two cases, you will have a difficult time handling the rest.  The concept is that you need to make sure that a found digit is not checked again.
 
-Secret | Guess | Correct Digit, Correct Location (Black Pin) | Correct Digit, Wrong Location (White Pin)
------- | ----- | ------------------------------------------- | -----------------------------------------
+Secret | Guess | Correct Digit and Location (Black Pin) | Correct Digit, Wrong Location (White Pin)
+------ | ----- | -------------------------------------- | -----------------------------------------
 6684 | 0000 | 0 | 0
 6684 | 6666 | 2 | 0
 
 The guesses below are in a possible sequence that I would play a game.  It uses the information from the previous guesses to come up with the next guess.
 
-Secret | Guess | Correct Digit, Correct Location (Black Pin) | Correct Digit, Wrong Location (White Pin)
------- | ----- | ------------------------------------------- | -----------------------------------------
+Secret | Guess | Correct Digit and Location (Black Pin) | Correct Digit, Wrong Location (White Pin)
+------ | ----- | -------------------------------------- | -----------------------------------------
 6684 | 0123 | 0 | 0
 6684 | 4567 | 0 | 2
 6684 | 4589 | 1 | 1
@@ -47,16 +47,16 @@ Secret | Guess | Correct Digit, Correct Location (Black Pin) | Correct Digit, Wr
 
 The guesses below are additional guesses that will help you create your algorithm correctly.  There may be other guesses that pass the tests above but still need to be checked to help validate your algorithm.  These will be added as they are found.
 
-Secret | Guess | Correct Digit, Correct Location (Black Pin) | Correct Digit, Wrong Location (White Pin)
------- | ----- | ------------------------------------------- | -----------------------------------------
+Secret | Guess | Correct Digit and Location (Black Pin) | Correct Digit, Wrong Location (White Pin)
+------ | ----- | -------------------------------------- | -----------------------------------------
 6684 | 8468 | 0 | 3
 6684 | 8866 | 0 | 3
 6684 | 8466 | 0 | 4
 
 Well, it did not take long to find more test cases that pass might pass the original tests above.  So here are a couple secrets, guesses, and answers you should check your code against.
 
-Secret | Guess | Correct Digit and Location (Black Pin) | Correct Digit Wrong Location (White Pin)
------- | ----- | -------------------------------------- | ----------------------------------------
+Secret | Guess | Correct Digit and Location (Black Pin) | Correct Digit, Wrong Location (White Pin)
+------ | ----- | -------------------------------------- | -----------------------------------------
 1111 | 1121 | 3 | 0
 1112 | 1222 | 2 | 0
 
@@ -66,8 +66,8 @@ The file [mastermind_4x6.txt](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi
 
 Table courtesy of @MikeMag.  It is a comma separated value (CSV) text file.  A few lines of the file are shown in the table below.  Thanks Mike.
 
-Secret | Guess | Correct Digit and Location (Black Pin) | Correct Digit Wrong Location (White Pin)
------- | ----- | -------------------------------------- | ----------------------------------------
+Secret | Guess | Correct Digit and Location (Black Pin) | Correct Digit, Wrong Location (White Pin)
+------ | ----- | -------------------------------------- | -----------------------------------------
 1111 | 1111 | 4 | 0
 1111 | 1112 | 3 | 0
 1111 | 1113 | 3 | 0
