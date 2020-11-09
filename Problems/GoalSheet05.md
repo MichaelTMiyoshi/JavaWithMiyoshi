@@ -20,36 +20,47 @@ You should output two things after the user guesses.  The number of digits that 
 
 Below is a test case to test your code.  Make sure that your "Secret" is the give number and then use the guesses to check your outputs to see that they match up with the test.
 
+By the way, traditional Mastermind had only 4 pins which could have 6 different colors (we are using 4 pins with 10 colors/digits).  One player put in the secret and the other player guessed based on feedback.  Feedback was given in terms of black and white pins.  A black pin signified that the guesser had gotten a pin of the correct color in the correct position.  A white pin signified that the guesser had gotten a pin of the correct color in the wrong location.
+
 Secret number: 6684
 
 The guesses below are silly guesses, but they are probably the ones that you should make sure you test first.  If you cannot handle these two cases, you will have a difficult time handling the rest.  The concept is that you need to make sure that a found digit is not checked again.
 
-Guess | Correct Digit, Correct Location | Correct Digit, Wrong Location
------ | ------------------------------- | -----------------------------
-0000 | 0 | 0
-6666 | 2 | 0
+Secret | Guess | Correct Digit, Correct Location (Black Pin) | Correct Digit, Wrong Location (White Pin)
+------ | ----- | ------------------------------------------- | -----------------------------------------
+6684 | 0000 | 0 | 0
+6684 | 6666 | 2 | 0
 
 The guesses below are in a possible sequence that I would play a game.  It uses the information from the previous guesses to come up with the next guess.
 
-Guess | Correct Digit, Correct Location | Correct Digit, Wrong Location
------ | ------------------------------- | -----------------------------
-0123 | 0 | 0
-4567 | 0 | 2
-4589 | 1 | 1
-6700 | 1 | 0
-0798 | 0 | 1
-6484 | 3 | 0
-6480 | 2 | 1
-6884 | 3 | 0
-6684 | 4 | 0
+Secret | Guess | Correct Digit, Correct Location (Black Pin) | Correct Digit, Wrong Location (White Pin)
+------ | ----- | ------------------------------------------- | -----------------------------------------
+6684 | 0123 | 0 | 0
+6684 | 4567 | 0 | 2
+6684 | 4589 | 1 | 1
+6684 | 6700 | 1 | 0
+6684 | 0798 | 0 | 1
+6684 | 6484 | 3 | 0
+6684 | 6480 | 2 | 1
+6684 | 6884 | 3 | 0
+6684 | 6684 | 4 | 0
 
 The guesses below are additional guesses that will help you create your algorithm correctly.  There may be other guesses that pass the tests above but still need to be checked to help validate your algorithm.  These will be added as they are found.
 
-Guess | Correct Digit, Correct Location | Correct Digit, Wrong Location
------ | ------------------------------- | -----------------------------
-8468 | 0 | 3
-8866 | 0 | 3
-8466 | 0 | 4
+Secret | Guess | Correct Digit, Correct Location (Black Pin) | Correct Digit, Wrong Location (White Pin)
+------ | ----- | ------------------------------------------- | -----------------------------------------
+6684 | 8468 | 0 | 3
+6684 | 8866 | 0 | 3
+6684 | 8466 | 0 | 4
+
+Well, it did not take long to find more test cases that pass might pass the original tests above.  So here are a couple secrets, guesses, and answers you should check your code against.
+
+Secret | Guess | Correct Digit and Location (Black Pin) | Correct Digit Wrong Location (White Pin)
+------ | ----- | -------------------------------------- | ----------------------------------------
+1111 | 1121 | 3 | 0
+1112 | 1222 | 2 | 0
+
+In reality, you should test mastermind against all the possible secrets and guesses.  Which is where the following paragraph and associated file comes in handy.
 
 The file [mastermind_4x6.txt](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/mastermind_4x6.txt) shows all the correct feedback for all the secrets and guesses for a 4 pin, 6 color Mastermind board.  It is useful for those who want to dig deeper into Mastermind or who might even want to write code to play Mastermind.  Writing code to play Mastermind will surely put your mind to the test.  And it will also be able to test your own implementation of the game.  Plus you can test different algorithms to play the game.  Are you up for the challenge?
 
