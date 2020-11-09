@@ -66,8 +66,8 @@ The file [mastermind_4x6.txt](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi
 
 Table courtesy of @MikeMag.  It is a comma separated value (CSV) text file.  A few lines of the file are shown in the table below.  Thanks Mike.
 
-Secret | Guess | Correct Digit and Location | Correct Digit Wrong Location
------- | ----- | -------------------------- | ----------------------------
+Secret | Guess | Correct Digit and Location (Black Pin) | Correct Digit Wrong Location (White Pin)
+------ | ----- | -------------------------------------- | ----------------------------------------
 1111 | 1111 | 4 | 0
 1111 | 1112 | 3 | 0
 1111 | 1113 | 3 | 0
