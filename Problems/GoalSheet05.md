@@ -71,9 +71,9 @@ public int[] scoreCodewords(String codeword1, String codeword2) {
       byte[] guessDigits = codeStringToBytes(codeword2);
 ```
 
-You will also need to use the file [mastermind_4p6c.txt](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/mastermind_4p6c.txt), which shows all the correct feedback for all the secrets and guesses for a 4 pin, 6 color Mastermind board (plus the test cases for 6684).  Include this in your project one folder/directory level above the src folder.
+You will also need to use the file [mastermind_4p6c.txt](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/mastermind_4p6c.txt), which shows all the correct feedback for all the secrets and guesses for a 4-pin, 6-color Mastermind board (plus the test cases for 6684).  Include this in your project one folder (directory) level above the src folder.
 
-If you really want to test your skills, write code to play Mastermind.  Writing code to play Mastermind will surely put your mind to the test.  But make sure to test your own implementation of the scoring function with Mike Magruder's tester first.  (By the way, if you can pass 4 pins with 6 colors, you can pass more pins and more colors).  Plus you can test different algorithms to play the game.  Are you up for the challenge?
+If you really want to test your skills, write code to play Mastermind.  Writing code to play Mastermind will surely put your mind to the test.  But make sure to test your own implementation of the scoring function with Mike Magruder's tester first.  (By the way, if you can pass 4 pins with 6 colors, you can pass more pins and more colors).  Once you write one algorithm to play the game, you can certainly write more.  You can even test other people's algorithms to play the game.  Are you up for the challenge?
 
 Code and table are courtesy of [Michael M. Magruder](https://github.com/MikeMag).  The file [mastermind_4x6.txt](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/mastermind_4x6.txt) is a comma separated value (CSV) text file with all the secrets, guesses, and feedback for a 4-pin, 6-color game.  A few lines of the file are shown in the table below.  Thanks Mike.
 
