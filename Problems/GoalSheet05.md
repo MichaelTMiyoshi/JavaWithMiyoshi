@@ -18,13 +18,13 @@ Write a program that plays a variation of the game Mastermind with a user.  The 
 
 You should output two things after the user guesses.  The number of digits that are correct AND in the correct location.  The number of digits that are correct BUT not in the correct location.  These are mutually exclusive.  A digit cannot be both in the correct location and not in the correct location.
 
-Below is a test case to test your code.  Make sure that your "Secret" is the give number and then use the guesses to check your outputs to see that they match up with the test.
+Below is a test case to test your code.  Make sure that your "Secret" is the given number (6684) and then use the guesses to check your outputs to see that they match up with the test.
 
 By the way, traditional Mastermind had only 4 pins which could have 6 different colors (we are using 4 pins with 10 colors/digits).  One player put in the secret and the other player guessed based on feedback.  Feedback was given in terms of black and white pegs.  A black peg signified that the guesser had gotten a pin of the correct color in the correct position.  A white peg signified that the guesser had gotten a pin of the correct color in the wrong location.
 
 Secret number: 6684
 
-The guesses below are silly guesses, but they are probably the ones that you should make sure you test first.  If you cannot handle these two cases, you will have a difficult time handling the rest.  The concept is that you need to make sure that a found digit is not checked again.
+The guesses below are silly guesses, but they are good for initial tests.  If you cannot handle these two cases, you will have a difficult time handling the rest.  The concept is that you need to make sure that a found digit is not checked again.
 
 Secret | Guess | Correct Digit and Location (Black Peg) | Correct Digit, Wrong Location (White Peg)
 ------ | ----- | -------------------------------------- | -----------------------------------------
@@ -73,7 +73,7 @@ public int[] scoreCodewords(String codeword1, String codeword2) {
 
 You will also need to use the file [mastermind_4p6c.txt](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/mastermind_4p6c.txt), which shows all the correct feedback for all the secrets and guesses for a 4 pin, 6 color Mastermind board (plus the test cases for 6684).  Include this in your project one folder/directory level above the src folder.
 
-If you really want to test your skills, write code to play Mastermind.  Writing code to play Mastermind will surely put your mind to the test.  But make sure to test your own implementation of the game with Mike Magruder's tester first.  (By the way, if you can pass 4 pins with 6 colors, you can pass more pins and more colors).  Plus you can test different algorithms to play the game.  Are you up for the challenge?
+If you really want to test your skills, write code to play Mastermind.  Writing code to play Mastermind will surely put your mind to the test.  But make sure to test your own implementation of the scoring function with Mike Magruder's tester first.  (By the way, if you can pass 4 pins with 6 colors, you can pass more pins and more colors).  Plus you can test different algorithms to play the game.  Are you up for the challenge?
 
 Code and table are courtesy of [Michael M. Magruder](https://github.com/MikeMag).  The file [mastermind_4x6.txt](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/mastermind_4x6.txt) is a comma separated value (CSV) text file with all the secrets, guesses, and feedback for a 4-pin, 6-color game.  A few lines of the file are shown in the table below.  Thanks Mike.
 
