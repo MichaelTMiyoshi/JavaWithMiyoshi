@@ -6,7 +6,7 @@ Note: BJP = Building Java Programs (by Reges and Stepp)
 
 **Problem GS14-01 - Levenshtein Distance (double)**
 
-BJP Ch 11 project 1.  Find edit (Levenshtein) distance between words.  Read words from a file (\\s10filp03\Public\_Programming\APCompSci\dictionary.txt).  Compute a map from every word to its immediate neighbors, that is, the words that have an edit distance of 1 from it.  You can walk the map to find paths from one word to another, and can use a linked list of words to visit neighbors.  (Full description in BJP)
+BJP Ch 11 project 1.  Find edit (Levenshtein) distance between words.  Read words from a [sorted dictionary file](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/dictionarySorted.txt).  Compute a map from every word to its immediate neighbors, that is, the words that have an edit distance of 1 from it.  You can walk the map to find paths from one word to another, and can use a linked list of words to visit neighbors.  (Full description in BJP)  You might also find a [dictionary sorted by length](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/dictionarySortedLength.txt) to be of help.  (By the way, that is a little hint.)
 
 **Problem GS14-02 - isReverse (recursive)**
 
