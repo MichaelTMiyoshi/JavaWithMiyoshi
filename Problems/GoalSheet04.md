@@ -30,7 +30,10 @@ Write a method that takes a string and an integer (maximum length) and outputs t
 
 Examples:
 
-Arguments: "abcdefghijklm", 3
+Method call: 
+```
+method("abcdefghijklm", 3);
+```
 
 Output:
 ```
@@ -40,7 +43,10 @@ ghi
 jkl
 m
 ```
-Arguments: "What is your quest?", 7
+Method call: 
+```
+method("What is your quest?", 7);
+```
 
 Output:
 ```
