@@ -16,9 +16,38 @@ Write a method called printReverse that accepts a String as its parameter and pr
 
 Write a method called processName that accepts a Scanner for the console as a parameter and promts the user to enter a full name (as a single String).  Output the name in reverse order. (BJP Ch 3 Ex 15)
 
+Examples:
+
+Input | Output
+----- | ------
+Adam Smith | Smith, Adam
+John Quincy Adams | Adams, John Quincy
+Charles Philip Arthur George Mountbatten-Windsor |  Mountbatten-Windsor, Charles Philip Arthur George
+
 **Problem GS04-04 - substrings**
 
 Write a method that takes a string and an integer (maximum length) and outputs the necessary substrings of the given length (the last one may be shorter) of the original String on separate lines.
+
+Examples:
+
+Arguments: "abcdefghijklm", 3
+
+Output:
+```
+abc
+def
+ghi
+jkl
+m
+```
+Arguments: "What is your quest?", 7
+
+Output:
+```
+What is
+ your q
+uest?
+```
 
 **Problem GS04-05 - stairString**
 
