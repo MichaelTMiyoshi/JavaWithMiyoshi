@@ -23,8 +23,10 @@ Write a method that takes a string and an integer (maximum length) and outputs t
 **Problem GS04-05 - stairString**
 
 Write a method called stairString that takes two parameters as input, a String and an integer representing the number of lines the String will be on.  The method will divide the String into the number of substrings indicated and then output the substrings so that each substring is placed one line below the next in the same horizontal location it would have been had they been on the same line.  For example stairString(“The End”, 2); would output
+```
 The
     End
+```
 An empty string and/or a line number less than 1, will create no output.  You must use the substring method to receive any credit.
 
 
