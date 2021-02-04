@@ -12,7 +12,7 @@ PixLab [Chroma Key](https://mathorama.com/apcs/pmwiki.php?n=Main.PictureLabBonus
 
 PixLab [Steganography](https://mathorama.com/apcs/pmwiki.php?n=Main.PictureLabBonus2) exercise.  https://mathorama.com/apcs/pmwiki.php?n=Main.PictureLabBonus2
 
-**Problem GS13-03 - Selection Sort (modified)**
+**Problem GS13-03 - Self-Check problems**
 
 BJP Chapter 9 Self-Check problems 8-14, 16 (half point each).  You may enter the code and test to determine your answers.  (Inheritance, polymorphism)
 
