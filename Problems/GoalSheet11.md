@@ -16,6 +16,20 @@ Write a recursive method called writeNums that takes an integer n as a parameter
 
 Write a recursive method called writeSequence that accepts an integer n as a parameter and prints to the console a symmetric sequence of n numbers composed of descending integers that ends in 1, followed by a sequence of ascending integers that begins with 1.  When n is odd, the sequence has a single 1 in the middle, but when n is even, it has two 1s in the middle.  Throw an IllegalArgumentException if it is passed a value less than 1.  (BJP Ch 12 Ex 3)
 
+function call | expected output
+:-------------|:---------------
+`writeSequence(1);` | `1`
+`writeSequence(2);` | `1 1`
+`writeSequence(3);` | `2 1 2`
+`writeSequence(4);` | `2 1 1 2`
+`writeSequence(5);` | `3 2 1 2 3`
+`writeSequence(6);` | `3 2 1 1 2 3`
+`writeSequence(7);` | `4 3 2 1 2 3 4`
+`writeSequence(8);` | `4 3 2 1 1 2 3 4`
+`writeSequence(9);` | `5 4 3 2 1 2 3 4 5`
+`writeSequence(10);` | `5 4 3 2 1 1 2 3 4 5`
+
+
 **Problem GS11-04 - sumTo**
 
 Write a recursive method called sumTo that accepts an integer parameter n and returns a real number representing the sum of the first n reciprocals.  In other words, sumTo(n) returns (1 + ½ + 1/3 + ¼ + … + 1/n).  For example, sumTo(2) should return 1.5.  The method should return 0.0 if it is passed the value 0 and thro an IllegalArgumentException if it passed a value less than 0.  (BJP Ch 12 Ex 9)
