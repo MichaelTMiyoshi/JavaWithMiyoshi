@@ -6,8 +6,8 @@ As you can see in the results, my algorithm is not very time efficient.  But I l
 
 Summary:
 
-Distance | Number of paths
----------|----------------
+Distance | Number of shortest paths
+---------|-------------------------
 Levenshtein Distance from dog to cat is 3 | Shortest Paths: 6
 Levenshtein Distance from cat to dog is 3 | Shortest Paths: 6
 Levenshtein Distance from puppy to dog is 6 | Shortest Paths: 38
