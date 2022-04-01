@@ -2,6 +2,10 @@
 
 Here are some tests for the Levenshtein problem.  I have done the problem beyond what is required for my students.  I was challenged by my friend to do so.  Anyway.  The Levenshtein problem for my students is merely to find if there is a path from one word to the next following the rules of adding or subtracting or changing one letter at a time.  The tests that I performed and that are listed give the shortest distances and list those shortest distances.  One of the most interesting transformations is monkey -> business.  By the way, the answers might be different if you use a different dictionary.
 
+Make sure to test some words that have no path between them too.
+
+category -> categories
+
 As you can see in the results, my algorithm is not very time efficient.  But I leave those times in for those who might be interested in comparing their times with mine.
 
 Summary:
