@@ -10,6 +10,8 @@ BJP Ch 11 project 1.  Find edit (Levenshtein) distance between words.  Read word
 
 [Here](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/Tests-Levenshtein.md) are some examples of tests and my results.  By the way, you do not need to find paths.  Just determine that there are paths.
 
+[Here](https://github.com/MichaelTMiyoshi/JavaWithMiyoshi/blob/master/Problems/dictionaryCatDog.txt) is a file with just a small set of words to test cat to dog or dog to cat.  (You can test other paths with this dictionary as well.)
+
 **Problem GS14-02 - isReverse (recursive)**
 
 BJP Ch 12 Ex 11.  Write a recursive method called isReverse that accepts two strings as parameters and returns true if the two strings contain the same sequence of characters as each other but in opposite order (ignoring capitalization), and false otherwise.  For example, the call of isReverse(“hello”, “oLLeH”); would return true.  The empty string, as well as any one-letter string, is considered to be its own reverse.  (Full description in BJP)
